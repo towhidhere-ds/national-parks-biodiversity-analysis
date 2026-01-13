@@ -1,43 +1,69 @@
-## Project: Biodiversity Analysis in National Parks
+# Biodiversity Analysis in National Parks
 
-### Overview
-This project explores biodiversity data from the National Parks Service, focusing on species diversity, conservation efforts, and ecological trends across four national parks:
-- Yellowstone National Park
-- Yosemite National Park
-- Great Smoky Mountains National Park
-- Bryce National Park
+## Introduction
 
-Through data cleaning, visualization, and analysis, the project uncovers insights into species distributions and conservation priorities.
+The goal of this project is to analyze biodiversity data from the National Parks Service, with a focus on species observed across different national park locations. The analysis looks at species types, conservation status, and observation patterns to better understand biodiversity trends.
 
-### Key Questions
-- What is the distribution of conservation statuses for species?
-- Are certain types of species more likely to be endangered?
-- Which parks have the highest and lowest biodiversity based on observations and unique species counts?
-- Which species are most frequently or rarely observed in each park?
-- Is there a significant relationship between species categories and conservation statuses?
+This project involves scoping the problem, cleaning and preparing the data, analyzing key attributes, creating visualizations, and explaining the findings in a clear and practical way.
 
+## Key Questions
 
-### Data Sources
-- **National Parks Service**:
-  - `species_info.csv`: Contains species information such as category, scientific names, and conservation statuses.
-  - `observations.csv`: Records the number of species observations in the four national parks.
+This project aims to answer the following questions:
 
-### Visualizations
-This project features several visualizations, including:
-- Bar plots showing the distribution of conservation statuses.
-- Heatmaps and bar plots highlighting the most and least observed species.
-- Comparative plots of biodiversity richness across parks.
+* What is the distribution of conservation status among species?
+* Are certain types of species more likely to be endangered?
+* Are the differences between species categories and conservation status statistically significant?
+* Which species are most commonly observed, and how are they distributed across parks?
 
-### Project Scoping
-**Objective**: To analyze and visualize biodiversity data from four national parks to uncover trends in species diversity and conservation.
+## Data Sources
 
-**Scope**:
-1. Investigate conservation statuses and species diversity.
-2. Identify parks with the highest biodiversity richness and those needing conservation focus.
-3. Highlight endangered species trends and draw actionable insights for conservation efforts.
+The dataset used in this project includes two CSV files:
 
-**Deliverables**:
-- Cleaned datasets
-- Visualizations of biodiversity trends
-- Statistical analysis of conservation statuses
-- Insights and recommendations for conservation planning
+* `observations.csv`: Contains records of species observations across national parks
+* `species_info.csv`: Contains species details such as category, scientific name, and conservation status
+
+Both datasets were provided by **Codecademy**.
+Note: The data is inspired by real-world data but is mostly fictional and intended for learning purposes.
+
+## Tools and Libraries
+
+The following tools and libraries were used in this project:
+
+* Python
+* pandas
+* matplotlib
+* seaborn
+* Jupyter Notebook
+
+## Project Structure
+
+```
+├── biodiversity.ipynb
+├── observations.csv
+├── species_info.csv
+├── README.md
+```
+
+## Key Outcomes
+
+* Identified the distribution of conservation statuses across species
+* Analyzed which species categories are more likely to be endangered
+* Compared biodiversity richness across multiple national parks
+* Highlighted the most and least observed species in each park
+* Used visualizations to clearly communicate biodiversity trends
+
+## Next Steps
+
+Possible extensions of this project include:
+
+* Deeper statistical testing on species and conservation status relationships
+* Trend analysis across time if temporal data becomes available
+* Park-level conservation priority scoring
+* More advanced visualizations or interactive dashboards
+
+## Contact
+
+If you explore this project further or build on top of it, feel free to reach out.
+📧 **Email:** [islam.towhidul.towhid@gmail.com](mailto:islam.towhidul.towhid@gmail.com)
+
+I’d be happy to review your work or discuss improvements.
