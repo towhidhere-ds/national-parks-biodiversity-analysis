@@ -37,10 +37,11 @@ The following tools and libraries were used in this project:
 ## Project Structure
 
 ```
-├── biodiversity.ipynb
+├── biodiversity-in-national-parks.ipynb
 ├── observations.csv
 ├── species_info.csv
 ├── README.md
+├── Biodiversity-and-Conservation-Analysis-in-National-Parks.pdf
 ```
 
 ## Key Outcomes
