@@ -22,8 +22,7 @@ The dataset used in this project includes two CSV files:
 * `observations.csv`: Contains records of species observations across national parks
 * `species_info.csv`: Contains species details such as category, scientific name, and conservation status
 
-Both datasets were provided by **Codecademy**.
-Note: The data is inspired by real-world data but is mostly fictional and intended for learning purposes.
+The datasets used in this project were provided by Codecademy and are inspired by real-world biodiversity data from the U.S. National Park Service. While the structure reflects real NPS data, the values have been simplified for educational purposes. To know more, feel free to visit the [website](https://irma.nps.gov/NPSpecies/).
 
 ## Tools and Libraries
 
